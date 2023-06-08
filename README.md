@@ -6,4 +6,4 @@
 
 Thanks for checking out this front-end coding challenge.
 
-Check out live preview : [here](https://www.frontendmentor.io](https://carniel-carl.github.io/dropdown-navigation/) 
+Checkout live preview:[click here](https://carniel-carl.github.io/dropdown-navigation/)
