@@ -60,6 +60,15 @@ main {
   border-radius: 10px;
   font-size: 1rem;
   font-weight: bold;
+  border: 1px solid var(--ALMOST-BLACK);
+  transition: all 0.3s;
+}
+
+.learn:hover,
+.learn:focus {
+  color: var(--ALMOST-BLACK);
+  background-color: transparent;
+  border: 1px solid var(--ALMOST-BLACK);
 }
 
 @media screen and (max-width: 450px) {
