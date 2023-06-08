@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import BackDrop from "./component/BackDrop/BackDrop";
+import Main from "./component/Main/Main";
+import NavBar from "./component/NavBar/NavBar";
+import SideBar from "./component/SideBar/SideBar";
 
 function App() {
+  const [showSidebar, setShowSideBar] = useState(false);
+
+  const toggleSideBar = () => {
+    setShowSideBar((prev) => !prev);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar opensidebar={toggleSideBar} />
+      <BackDrop showsidebar={showSidebar} closesidebar={toggleSideBar} />
+      <SideBar open={showSidebar} close={toggleSideBar} />
+      <Main />
+    </>
   );
 }
 
