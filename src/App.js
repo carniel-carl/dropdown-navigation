@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import BackDrop from "./component/BackDrop/BackDrop";
 import Main from "./component/Main/Main";
@@ -11,6 +11,12 @@ function App() {
   const toggleSideBar = () => {
     setShowSideBar((prev) => !prev);
   };
+
+  useEffect(() => {
+    showSidebar
+      ? (document.body.style.overflowY = "hidden")
+      : (document.body.style.overflowY = "auto");
+  }, [showSidebar]);
 
   return (
     <>
