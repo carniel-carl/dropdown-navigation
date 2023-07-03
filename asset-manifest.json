@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dropdown-navigation/static/css/main.e3915dc8.css",
-    "main.js": "/dropdown-navigation/static/js/main.3fe4b94b.js",
+    "main.js": "/dropdown-navigation/static/js/main.47d6f89e.js",
     "static/media/image-hero-desktop.png": "/dropdown-navigation/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-hero-mobile.png": "/dropdown-navigation/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
     "static/media/client-databiz.svg": "/dropdown-navigation/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
@@ -17,10 +17,10 @@
     "static/media/icon-close-menu.svg": "/dropdown-navigation/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
     "static/media/icon-menu.svg": "/dropdown-navigation/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
     "main.e3915dc8.css.map": "/dropdown-navigation/static/css/main.e3915dc8.css.map",
-    "main.3fe4b94b.js.map": "/dropdown-navigation/static/js/main.3fe4b94b.js.map"
+    "main.47d6f89e.js.map": "/dropdown-navigation/static/js/main.47d6f89e.js.map"
   },
   "entrypoints": [
     "static/css/main.e3915dc8.css",
-    "static/js/main.3fe4b94b.js"
+    "static/js/main.47d6f89e.js"
   ]
 }
